@@ -171,7 +171,7 @@ static const Key keys[] = {
 	{ MODKEY|WLR_MODIFIER_SHIFT, XKB_KEY_s,		  spawn,	    {.v = steammm} },
 	{ WLR_MODIFIER_LOGO,	     XKB_KEY_Up,	  spawn,	    {.v = volumeupminimal} },
 	{ WLR_MODIFIER_LOGO,	     XKB_KEY_Down,	  spawn,	    {.v = volumedownminimal} },	
-	{ WLR_MODIFIER_LOGO,	     XKB_KEY_Left,	  spawn,	    {.v = disablejap},	
+	{ WLR_MODIFIER_LOGO,	     XKB_KEY_Left,	  spawn,	    {.v = disablejap} },	
 	{ WLR_MODIFIER_LOGO,	     XKB_KEY_Right,	  spawn,	    {.v = enablejap} },	
 	TAGKEYS(          XKB_KEY_1, XKB_KEY_exclam,                        0),
 	TAGKEYS(          XKB_KEY_2, XKB_KEY_at,                            1),
